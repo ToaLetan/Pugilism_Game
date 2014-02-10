@@ -67,7 +67,7 @@ public class MenuScript : MonoBehaviour
 
 	private void Select()
 	{
-		Vector3 returnPosition = menuCursor.transform.position;
+		//Vector3 returnPosition = menuCursor.transform.position;
 
 		menuCursor.transform.position = Vector3.Lerp(menuCursor.transform.position, currentSelection.transform.position, 0.2f);
 	}
