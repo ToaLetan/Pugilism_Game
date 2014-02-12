@@ -16,6 +16,7 @@ public class InputManager
 	private KeyCode downKey;
 	private KeyCode downKey2;
 
+
 	public event InputMovementEvent UpKey_Pressed;
 	public event InputMovementEvent DownKey_Pressed;
 	public event InputActionEvent SelectKey_Pressed;
@@ -67,5 +68,6 @@ public class InputManager
 			if(SelectKey_Pressed != null)
 				SelectKey_Pressed();
 		}
+
 	}
 }

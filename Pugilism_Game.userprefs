@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MatchTimeManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerControls.cs">
     <Files>
-      <File FileName="Assets\Scripts\HUDScript.cs" Line="17" Column="21" />
-      <File FileName="Assets\Scripts\MatchTimeManager.cs" Line="72" Column="13" />
-      <File FileName="Assets\Scripts\InputManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerControls.cs" Line="26" Column="31" />
+      <File FileName="Assets\Scripts\MatchTimeManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InputManager.cs" Line="23" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -8,17 +8,21 @@ public class HUDScript : MonoBehaviour
 	void Start () 
 	{
 		MatchTimeManager.Instance.StartTimer(10);
+		MatchTimeManager.Instance.SecondElapsed += UpdateTimerText;
+		MatchTimeManager.Instance.TimerComplete += UpdateTimerText;
+
+		UpdateTimerText();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		MatchTimeManager.Instance.Update();
-		UpdateTimerText();
+		//UpdateTimerText();
 	}
 
 	private void UpdateTimerText()
 	{
-		gameObject.guiText.text = "Time: " + MatchTimeManager.Instance.MatchTime;
+		gameObject.guiText.text = "Time: " + Mathf.CeilToInt(MatchTimeManager.Instance.MatchTime);
 	}
 }
