@@ -47,6 +47,13 @@ public class MenuScript : MonoBehaviour
 
 		if(menuCursor.transform.position.x != returnPosition.x)
 			ReturnPosition();
+
+		//-- test gamepad input
+		if(Input.GetButtonDown(GAMEPAD.BUTTONS[0].A))
+		{
+			Debug.Log("A button pressed");
+		}
+		//Debug.Log(Input.GetAxis(GAMEPAD.AXIS[0].LS_X));
 	}
 
 	private void MoveCursor(int direction)
